@@ -3,6 +3,8 @@
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+  padding: 0;
+  margin: 0;
 }
 
 .grid-item {
@@ -99,6 +101,21 @@
     display: block;
 }
 #about-button:hover {
+   background-position: right bottom;
+   color: #fff;
+   box-shadow: 3px 3px 20px #eee;
+   transform: translateY(-5px);
+   border-radius: 15px;
+}
+
+
+#settings-button {background-image: linear-gradient(120deg, #ff0000 0%, #ff0099  51%, #00ffff  100%)}
+#settings-button {
+   transition: 0.5s;
+   background-size: 200% auto;
+   display: block;
+}
+#settings-button:hover {
    background-position: right bottom;
    color: #fff;
    box-shadow: 3px 3px 20px #eee;
