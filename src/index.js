@@ -21,6 +21,7 @@ render(
       <Route path="merchants-quest" element={<MerchantsQuest />}/>
       <Route path="about" element={<About />}/>
       <Route path="settings" element={<Settings />}/>
+      
     </Routes>
   </BrowserRouter>,
   rootElement

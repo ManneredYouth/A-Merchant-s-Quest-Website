@@ -114,6 +114,7 @@
    transition: 0.5s;
    background-size: 200% auto;
    display: block;
+  align-items: center;
 }
 #settings-button:hover {
    background-position: right bottom;
